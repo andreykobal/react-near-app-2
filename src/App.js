@@ -90,7 +90,7 @@ export default function App() {
     function handleOnUnitySayMessage(message) {
       setSaidMessage(message);
 
-      const newGreeting = 'Hello Smart Contract From Emily'
+      const newGreeting = 'Hello Smart Contract From ' + window.accountId
 
       window.contract.set_greeting({
         // pass the value that the user entered in the greeting field
