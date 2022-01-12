@@ -153,7 +153,7 @@ export default function App() {
   if (!window.walletConnection.isSignedIn()) {
     return (
       <main>
-        <h2>Welcome to NEAR metaverse 3D game!</h2>
+        <h2>Welcome to NEAR metaverse 3D game! It's time to make some changes</h2>
         <p>
           Go ahead and click the button below to try it out:
         </p>
